@@ -8,6 +8,7 @@
     android:paddingLeft="16dp"
     android:paddingTop="16dp"
     android:paddingRight="16dp"
+    android:paddingBottom="16dp"
     tools:context=".MainActivity">
 
 
@@ -98,9 +99,9 @@
         android:layout_alignBottom="@id/button2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:onClick="openProgress"
         android:layout_marginEnd="36dp"
         android:layout_marginRight="36dp"
+        android:onClick="openProgress"
         android:text="Progress Dialog" />
 
 </RelativeLayout>
